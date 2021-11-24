@@ -124,7 +124,7 @@ namespace ImageFunctions
                            
                             byte[] bytes = output.ToArray();
 
-                            return new FileContentResult(bytes, "image/png");
+                            return new FileContentResult(bytes, "image/jpg");
                             //output.Position = 0;
                             // return new OkObjectResult(bytes);
                         }
